@@ -17,7 +17,7 @@ export default async function Blog() {
   console.log(posts);
   return (
     <div>
-      <h1>Posts</h1>
+      <h1>Posts from external API</h1>
       <p>
         This is a page that presents data taken from
         https://jsonplaceholder.typicode.com/posts in a list
@@ -27,7 +27,6 @@ export default async function Blog() {
           <li key={post.id}>{post.title}</li>
         ))}
       </ul>
-      ;
     </div>
   );
 }

@@ -3,14 +3,20 @@
   flex-direction: column;
   background-color: #f1f1f1;
   gap: 1rem;
-  padding: 2rem 2rem;
+  padding: 1rem 1rem;
   border: 1px solid;
   border-radius: 1rem;
 }
 
 .wrapper {
-  padding: 2rem 2rem;
+  padding: 1rem 1rem;
   background-color: #f9f5f2;
   border: 1px solid;
   border-radius: 1rem;
+  overflow-wrap:break-word
+}
+
+body {
+  font-family: Roboto;
+  
 }
