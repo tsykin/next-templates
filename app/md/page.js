@@ -7,7 +7,7 @@ import Link from "next/link";
 // Funtion to get content from a markdown file
 const getPostContent = () => {
   // Define file path
-  const file = "app/markdown/markdown-post.mdx";
+  const file = "app/md/markdown-post.md";
 
   // Read content using fs
   const content = fs.readFileSync(file, "utf8");
@@ -22,7 +22,11 @@ export default async function Page() {
   const post = await getPostContent();
   return (
     <div>
-      <h1>Blogs</h1>
+      <h1>Post written in markdown</h1>
+      <p>
+        This is a page that presents markdown file as html. It also shows
+        metadata inside markdown file using gray-matter
+      </p>
       <br />
       <h1>Post metadata:</h1>
 

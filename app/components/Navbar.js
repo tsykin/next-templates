@@ -7,7 +7,7 @@ const Navbar = () => {
       <h1>NavBar</h1>
       <Link href={"/"}>Data from local JSON file (inside an app)</Link>
       <Link href={"/blog"}>Getting posts from external API</Link>
-      <Link href={"/markdown"}>Reading markdown file (.md)</Link>
+      <Link href={"/md"}>Reading markdown file (.md)</Link>
       <Link href={"/mdx"}>MDX page with React elements</Link>
     </div>
   );

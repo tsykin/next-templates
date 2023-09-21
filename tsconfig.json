@@ -23,7 +23,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx",
-    "app/markdown/page.js"
+    "app/md/page.js"
   ],
   "exclude": ["node_modules"]
 }
