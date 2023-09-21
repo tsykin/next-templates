@@ -4,9 +4,10 @@ import React from "react";
 const Navbar = () => {
   return (
     <div className="navbar-links">
-      <Link href={"/"}>Data from JSON file inside app</Link>
-      <Link href={"/markdown"}>Markdown</Link>
-      <Link href={"/blog"}>Posts from API</Link>
+      <Link href={"/"}>Data from local JSON file (inside an app)</Link>
+      <Link href={"/blog"}>Getting posts from external API</Link>
+      <Link href={"/markdown"}>Reading markdown file (.md)</Link>
+      <Link href={"/mdx"}>MDX page with React elements</Link>
     </div>
   );
 };

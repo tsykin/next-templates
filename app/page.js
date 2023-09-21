@@ -1,4 +1,5 @@
 import { data } from "./api/data";
+import Hello from "./components/Hello";
 
 const page = () => {
   return (

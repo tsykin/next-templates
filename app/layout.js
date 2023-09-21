@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import CustomImage from "./components/CustomImage";
 import "./globals.css";
 import { Inter } from "next/font/google";
 

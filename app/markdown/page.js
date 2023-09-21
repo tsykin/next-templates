@@ -1,6 +1,8 @@
 import fs from "fs";
 import Markdown from "markdown-to-jsx";
 import matter from "gray-matter";
+import Hello from "../components/Hello";
+import Link from "next/link";
 
 // Funtion to get content from a markdown file
 const getPostContent = () => {
@@ -21,6 +23,10 @@ export default async function Page() {
   return (
     <div>
       <h1>Blogs</h1>
+      <br />
+      <Hello />
+      <Link href={"/blog"}>Posts from API</Link>
+      <br />
       <h2>Title: {post.data.title}</h2>
       <h2>Subtitle: {post.data.date}</h2>
       <h2>Date: {post.data.date}</h2>
