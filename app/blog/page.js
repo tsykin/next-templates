@@ -20,7 +20,7 @@ export default async function Blog() {
       <h1>Posts</h1>
       <p>
         This is a page that presents data taken from
-        "https://jsonplaceholder.typicode.com/posts" in a list
+        https://jsonplaceholder.typicode.com/posts in a list
       </p>
       <ul>
         {posts.map((post) => (
