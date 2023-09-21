@@ -24,13 +24,14 @@ export default async function Page() {
     <div>
       <h1>Blogs</h1>
       <br />
-      <Hello />
-      <Link href={"/blog"}>Posts from API</Link>
+      <h1>Post metadata:</h1>
+
+      <p>Title: {post.data.title}</p>
+      <p>Subtitle: {post.data.subtitle}</p>
+      <p>Date: {post.data.date}</p>
+      <p>Category: {post.data.category}</p>
+
       <br />
-      <h2>Title: {post.data.title}</h2>
-      <h2>Subtitle: {post.data.date}</h2>
-      <h2>Date: {post.data.date}</h2>
-      <h2>Category: {post.data.category}</h2>
 
       <Markdown>{post.content}</Markdown>
     </div>
