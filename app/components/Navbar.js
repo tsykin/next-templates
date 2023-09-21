@@ -4,6 +4,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div className="navbar-links">
+      <h1>NavBar</h1>
       <Link href={"/"}>Data from local JSON file (inside an app)</Link>
       <Link href={"/blog"}>Getting posts from external API</Link>
       <Link href={"/markdown"}>Reading markdown file (.md)</Link>
