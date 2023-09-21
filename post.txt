@@ -1,0 +1,2 @@
+This is content from txt file from root.
+LOL
