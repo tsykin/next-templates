@@ -17,6 +17,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <br />
         <div className="wrapper">{children}</div>
+        <p>Updated 2023-01-14, 17:35</p>
       </body>
     </html>
   );
